@@ -13,7 +13,7 @@ export default function App() {
   return (
     <main className='container'>
       <h1 className='text-center text-info'>Timer</h1>
-      <textarea  className='block'>
+      <textarea  className='d-block w-100 form-control resize-none' rows='7'>
      
       </textarea>
       <button className="m-2 btn btn-success" onClick={startTimer}>Start</button>
